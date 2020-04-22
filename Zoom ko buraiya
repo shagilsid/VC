@@ -1,0 +1,27 @@
+1. Meeting IDs can be exploited very easily bcs zoom generate random 9,10,11 digts meeting id : https://thehackernews.com/2020/01/zoom-meeting-password.html
+2. Zoom flaw CVE-2019-13450 lets anyone having mac to access device's camera. bcs Zoom software runs a local web server on the 
+  system—on port 19421—that "insecurely" receives commands through the HTTPS GET paraments and any website in your opened web 
+  browser can interact with it: https://thehackernews.com/2019/07/webcam-hacking-video-conferencing.html
+3. Overnight success of Zoom grabbed criminals attention.
+
+Ab Zoom ki choriya
+4. Zoom privacy policy.
+5. Zoom's Facebook SDK was found to send analytics data to facebook even if user didn;t login through fb.
+6. Zoom's Attendee Tracking feature.
+7. Administrators can see whole lot of users activity and their device configuration
+8. Zoom flaw allows hackers to access Windows login credentials,
+9. Zoom was able to get user's linked in profile of participants without their knowledge
+
+10.Zooms recording can be found publicly bcs they had common file name pattern
+11. zWarDial- a tool that can create actual meetings ID that were not password protected.
+12. Zoom's call, file sharing etc is actually end to end ecrpyted but when value added services are being used, Zoom can access the
+    decrytion keys which it maintains in cloud.
+13. The type of encryption was also not good. It used single AES-128 encryption in ECB mode. The ECB mode is not recommended bcs
+    patterns present in the plaintext are preserved during encryption
+14. Zoombombing:tools which lets hackers to hijack to meetings and run erotic contents ;)
+
+
+Jo mujhko acha lga
+1. Zoom Waiting room feature for more security.
+2. Zoom attendee tracking feature which lets host to check if participants are clicking away from the main Zoom window. Can be used
+    for online classes.
